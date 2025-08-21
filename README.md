@@ -70,7 +70,7 @@ In this task, you need to perform the following steps:
         ```
             sudo apt install python3-pip
             cd /data/app
-            sudo mv todoapp.service /etc/systemd/system/ 
+            sudo mv todoapp.service /etc/systemd/system/
             sudo systemctl daemon-reload
             sudo systemctl restart todoapp
         ```
@@ -81,7 +81,7 @@ In this task, you need to perform the following steps:
             systemctl status todoapp
         ```
 
-3. Verify that the web application is running; for that, open in a web browser the following URL: `http://<your-public-ip-DNS-name>:8080`. You should see the main page of the todo app. 
+3. Verify that the web application is running; for that, open in a web browser the following URL: `http://<your-public-ip-DNS-name>:8080`. You should see the main page of the todo app.
 
 4. Run artifacts generation script `scripts/generate-artifacts.ps1`
 
